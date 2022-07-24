@@ -1,5 +1,5 @@
-# Get Icons  from : https://fontawesome.com/icons
-# Get Colors from : https://brandcolors.net/
+Get Icons  from : https://fontawesome.com/icons
+Get Colors from : https://brandcolors.net/
 
 # behance:
 #   url   : https://www.behance.net/
@@ -11,20 +11,25 @@
 #   icon  : fab fa-dribbble
 #   color : 444444
 
-# email:
-#   url   : "mailto:"
-#   icon  : fas fa-envelope
-#   color : db4437
+email:
+  url   : "mailto:jongunj82@gmail.com"
+  icon  : fas fa-envelope
+  color : db4437
 
 # facebook:
 #   url   : https://www.facebook.com/
 #   icon  : fab fa-facebook
 #   color : 3b5998
 
-# github:
-#   url   : https://www.github.com/
-#   icon  : fab fa-github
-#   color : 333333
+github:
+  url   : https://www.github.com/skeep194
+  icon  : fab fa-github
+  color : 333333
+
+boj:
+  url   : https://www.acmicpc.net/user/skeep194
+  icon  : fa-regular fa-code
+  color : 333333
 
 # gitlab:
 #   url   : https://www.gitlab.com/
