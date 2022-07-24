@@ -22,12 +22,12 @@ email:
 #   color : 3b5998
 
 github:
-  url   : https://www.github.com/skeep194
+  url   : https://www.github.com/
   icon  : fab fa-github
   color : 333333
 
 boj:
-  url   : https://www.acmicpc.net/user/skeep194
+  url   : https://www.acmicpc.net/user/
   icon  : fa-regular fa-code
   color : 333333
 
