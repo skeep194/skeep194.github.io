@@ -1,10 +1,10 @@
 ### Site Settings ###
 title               : skeep194(완료)(최종)(진짜최종)
-description         : -
-                      별 의미없는 개인공부거리나 헛소리를 기록하려 합니다.  
-                      가끔 닉네임의 의미를 물어보는 사람들이 있는데 아쉽게도 아무 의미가 없어요 :(  
-                      집고양이 같이 조용하고 평화로운 생활을 원해요  
-                      슬프게도 현재 공군 현역으로 복무중(23.8.7)  
+description         : >-
+                      "별 의미없는 개인공부거리나 헛소리를 기록하려 합니다.\n
+                      가끔 닉네임의 의미를 물어보는 사람들이 있는데 아쉽게도 아무 의미가 없어요 :(\n
+                      집고양이 같이 조용하고 평화로운 생활을 원해요\n
+                      슬프게도 현재 공군 현역으로 복무중(23.8.7)"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 
 repository          : skeep194/skeep194.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
