@@ -1,15 +1,16 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : skeep194(완료)(최종)(진짜최종)
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      별 의미없는 개인공부거리나 헛소리를 기록하려 합니다.
+                      가끔 닉네임의 의미를 물어보는 사람들이 있는데 아쉽게도 아무 의미가 없어요 :(
+                      집고양이 같이 조용하고 평화로운 생활을 원해요
+                      슬프게도 현재 공군 현역으로 복무중(23.8.7)
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 
 repository          : skeep194/skeep194.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
 remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###
@@ -27,24 +28,24 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+  name              : Jongun Jeong
+#  image             : https://i.imgur.com/uyDNQnn.jpg
+#  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : jongunj82@gmail.com
+#  facebook          : your_username
+  github            : skeep194
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+#  linkedin          : your_username
+#  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+#  twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
@@ -65,7 +66,7 @@ collections:
 
 ### Disqus ###
 disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+  shortname: skeep                     # Your website Shortname on disqus
 
 
 ### Analytics ###
