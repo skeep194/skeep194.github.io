@@ -16,6 +16,7 @@ open_new_tab        : true                             # Opens external URLs in 
 plugins:
   - jemoji
 
+asset_url: /assets
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
@@ -28,7 +29,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Jongun Jeong
-#  image             : https://i.imgur.com/uyDNQnn.jpg
+  image             : /assets/home.jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : jongunj82@gmail.com
