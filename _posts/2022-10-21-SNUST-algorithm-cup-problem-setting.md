@@ -22,7 +22,7 @@ external_url:
 <summary>정해</summary>
 <div markdown="1">
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -46,43 +46,43 @@ string int_to_str(int i)
 
 int main()
 {
-	cin>>n;
-	arr.resize(n);
-	for(int i=0;i<n;++i)
-	{
-		cin>>arr[i];
-		cnt[str_to_int(arr[i])]++;
-	}
-	for(int i=0;i<1000;++i)
-	{
-	    if(cnt[i] > 1)
-	    {
-	        string s = int_to_str(i);
-	        chk[max(s[0], s[1])-'A'] = true;
-	    }
-	}
-	sort(arr.begin(),arr.end());
-	arr.erase(unique(arr.begin(),arr.end()), arr.end());
-	for(int i=0;i<arr.size();++i)
-	{
-		for(int j=i+1;j<arr.size();++j)
-		{
-			chk[max(arr[i][0],arr[j][1])-'A'] = true;
-			chk[max(arr[j][0],arr[i][1])-'A'] = true;
-		}
-	}
-	vector<char> ret;
-	for(int i=0;i<26;++i)
-	{
-		if(chk[i])
-			ret.push_back(i+'A');
-	}
-	cout<<ret.size()<<'\n';
-	for(auto i : ret)
-	{
-		cout<<i<<' ';
-	}
-	return 0;
+    cin>>n;
+    arr.resize(n);
+    for(int i=0;i<n;++i)
+    {
+        cin>>arr[i];
+        cnt[str_to_int(arr[i])]++;
+    }
+    for(int i=0;i<1000;++i)
+    {
+        if(cnt[i] > 1)
+        {
+            string s = int_to_str(i);
+            chk[max(s[0], s[1])-'A'] = true;
+        }
+    }
+    sort(arr.begin(),arr.end());
+    arr.erase(unique(arr.begin(),arr.end()), arr.end());
+    for(int i=0;i<arr.size();++i)
+    {
+        for(int j=i+1;j<arr.size();++j)
+        {
+            chk[max(arr[i][0],arr[j][1])-'A'] = true;
+            chk[max(arr[j][0],arr[i][1])-'A'] = true;
+        }
+    }
+    vector<char> ret;
+    for(int i=0;i<26;++i)
+    {
+        if(chk[i])
+            ret.push_back(i+'A');
+    }
+    cout<<ret.size()<<'\n';
+    for(auto i : ret)
+    {
+        cout<<i<<' ';
+    }
+    return 0;
 }
 
 ```
@@ -102,7 +102,7 @@ dp[i] = k: (1 -> i-1) max(dp[k]+pow(arr[i]-arr[k], 2))
 <summary>정해</summary>
 <div markdown="1">
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 #define int ll
@@ -113,25 +113,25 @@ int num_max[110];
 int arr[100100];
 
 int32_t main() {
-	int n;
-	cin>>n;
-	memset(num_max, -1, sizeof(num_max));
-	for(int i=0;i<n;++i)
-	{
-		cin>>arr[i];
-	}
-	for(int i=0;i<n;++i)
-	{
-		for(int j=1;j<=100;++j)
-		{
-			if(num_max[j] == -1)
-				continue;
-			dp[i] = max(dp[i], num_max[j]+(arr[i]-j)*(arr[i]-j));
-		}
-		num_max[arr[i]] = max(num_max[arr[i]], dp[i]);
-	}
-	cout<<dp[n-1];
-	return 0;
+    int n;
+    cin>>n;
+    memset(num_max, -1, sizeof(num_max));
+    for(int i=0;i<n;++i)
+    {
+        cin>>arr[i];
+    }
+    for(int i=0;i<n;++i)
+    {
+        for(int j=1;j<=100;++j)
+        {
+            if(num_max[j] == -1)
+                continue;
+            dp[i] = max(dp[i], num_max[j]+(arr[i]-j)*(arr[i]-j));
+        }
+        num_max[arr[i]] = max(num_max[arr[i]], dp[i]);
+    }
+    cout<<dp[n-1];
+    return 0;
 }
 ```
 </div>
