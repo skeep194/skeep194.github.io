@@ -2,7 +2,7 @@
 title: C++ std::accmulate 함수 주의점
 tags: [TIL]
 style: fill
-color: alert
+color: danger
 date: 2022-10-21 00:22:30+0900
 description: this is description
 external_url: 
