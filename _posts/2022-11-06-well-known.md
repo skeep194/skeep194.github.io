@@ -14,5 +14,5 @@ external_url:
 ## 서로소의 곱
 a가 c랑 서로소이면서 b가 c랑 서로소이다. a * b와 c는 서로소이다. 두 문장은 필요충분조건이다.
 
-[https://codeforces.com/contest/1749/problem/D]
+[https://codeforces.com/contest/1749/problem/D](https://codeforces.com/contest/1749/problem/D)
 이 문제를 풀다가 마지막에 a랑 b가 동시에 c랑 서로소면 m안에서 개수를 어떻게 셀지를 한참 고민하다 에디토리얼을 봤는데 너무 당연한 아이디어였다.
