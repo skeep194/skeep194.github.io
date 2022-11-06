@@ -4,7 +4,7 @@ tags: [TIL]
 style: fill
 color: danger
 date: 2022-10-21 00:22:30+0900
-description: this is description
+description: 대회 중에 실수한게 아니라서 다행
 external_url: 
 ---
 # 이런
