@@ -1,5 +1,5 @@
 ---
-title: 어디서 나올법한 웰논 모음집(22-11-06 수정)
+title: 어디서 나올법한 웰논 모음집(22-11-07 수정)
 tags: [ps]
 style: fill
 color: secondary
@@ -16,3 +16,8 @@ a가 c랑 서로소이면서 b가 c랑 서로소이다. a * b와 c는 서로소�
 
 [https://codeforces.com/contest/1749/problem/D](https://codeforces.com/contest/1749/problem/D)
 이 문제를 풀다가 마지막에 a랑 b가 동시에 c랑 서로소면 m안에서 개수를 어떻게 셀지를 한참 고민하다 에디토리얼을 봤는데 너무 당연한 아이디어였다.
+
+## 서로소의 개수
+M이랑 [a, b]구간에 있는 서로소의 개수를 구하는 방법은 포함 배제의 원리로 가능하다.
+
+[https://www.acmicpc.net/problem/9359](https://www.acmicpc.net/problem/9359)
